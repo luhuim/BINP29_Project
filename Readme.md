@@ -17,6 +17,7 @@ Python: 3.10.4
  wget https://github.com/sarabehnamian/Origins-of-Ancient-Eurasian-Genomes/raw/main/steps/Step%200/DataS1.bed
  wget https://github.com/sarabehnamian/Origins-of-Ancient-Eurasian-Genomes/raw/main/steps/Step%200/DataS1.bim
  wget https://github.com/sarabehnamian/Origins-of-Ancient-Eurasian-Genomes/raw/main/steps/Step%200/DataS1.fam 
+ wget https://github.com/sarabehnamian/Origins-of-Ancient-Eurasian-Genomes/raw/main/steps/Step%203/mergq.xlsx 
  
  #download software "plink"
  wget https://s3.amazonaws.com/plink1-assets/plink_win64_20220402.zip                                                                    
