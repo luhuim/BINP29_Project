@@ -41,8 +41,6 @@ Extract list of rs IDs from bim file. Obtain `SNP_list.txt`
 ```
 cut -f2 DataS1.bim > SNP_list.txt 
 ```
+P.S. 确认.ped文件列数 `awk -F' ' '{print NF; exit}' DataS1.ped `   等于147299*2+6  
 
-
-确认.ped文件列数 `awk -F' ' '{print NF; exit}' DataS1.ped `   等于147299*2+6  
-
- 
+#### 
