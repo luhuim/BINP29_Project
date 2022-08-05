@@ -51,3 +51,8 @@ Convert `.xlsx` into `.csv`
 for i  in *.xlsx; do  libreoffice --headless --convert-to csv "$i" ; done 
 ```
 Obtaining file `mergq.csv`
+extract the column of time, and remove the first row.
+```
+cut -d, -f11 mergq.csv >time.csv
+sed '1d' time.csv >time_1.csv
+```
