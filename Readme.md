@@ -56,3 +56,14 @@ extract the column of time, and remove the first row.
 cut -d, -f11 mergq.csv >time.csv
 sed '1d' time.csv >time_1.csv
 ```
+输入rs ID，给出ID在第几行  
+```
+grep -n "rs145823663" SNP_list.txt | awk -F  ":" '{print $1}'
+```
+假设在底n行,对应`.ped`文件的第几列？把那两列导出到文件中`rs-ID.csv`  
+```
+cut -f"6+2n-1"-"6+2n" DataS1.ped > rs-ID.csv
+```
+
+
+
